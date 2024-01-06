@@ -1,1 +1,2 @@
 In this project, C code was written to encrypt 100-word long sentences.
+The encryption type is selected at low, medium, high and master levels and the entered sentence is encrypted within the specified algorithm.
