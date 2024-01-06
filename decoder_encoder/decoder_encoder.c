@@ -221,19 +221,19 @@ int main() {
 
         switch (choice) {
         	
-            case 0:
-                printf("Exiting...\n");
-                exit(0);
+            		case 0:
+                		printf("Exiting...\n");
+                		exit(0);
 
-            case 1:
-                printf("Please enter the message: ");
-                getchar(); 
-                fgets(msg, sizeof(msg), stdin);
-                msg[strcspn(msg, "\n")] = '\0'; 
+           		case 1:
+                		printf("Please enter the message: ");
+                		getchar(); 
+                		fgets(msg, sizeof(msg), stdin);
+                		msg[strcspn(msg, "\n")] = '\0'; 
 
-                low_encrypt(msg, strlen(msg));
-                printf("Encrypted version of the message : %s\n", msg);
-                break;
+                		low_encrypt(msg, strlen(msg));
+                		printf("Encrypted version of the message : %s\n", msg);
+                		break;
 			case 2:
 				printf("Please enter the message: ");
 				getchar();
@@ -263,15 +263,15 @@ int main() {
 				printf("Encrypted version of the message : %s\n",msg);
 				break;	
 				
-            case 5:
-                printf("Please enter the Encrypted version of the message: ");
-                getchar(); 
-                fgets(msg, sizeof(msg), stdin);
-                msg[strcspn(msg, "\n")] = '\0';
+          		  case 5:
+              			printf("Please enter the Encrypted version of the message: ");
+                		getchar(); 
+                		fgets(msg, sizeof(msg), stdin);
+                		msg[strcspn(msg, "\n")] = '\0';
 
-                low_decrypt(msg, strlen(msg));
-                printf("Decrypted version of the Encrypted message: %s\n", msg);
-                break;
+                		low_decrypt(msg, strlen(msg));
+                		printf("Decrypted version of the Encrypted message: %s\n", msg);
+                		break;
 			
 			case 6:
 				printf("Please enter the Encrypted version of the message: ");
@@ -294,17 +294,17 @@ int main() {
 				break;
 				
 			case 8:
-                printf("Please enter the Encrypted version of the message: ");
-                getchar(); 
-                fgets(msg, sizeof(msg), stdin);
-                msg[strcspn(msg, "\n")] = '\0'; 
+                		printf("Please enter the Encrypted version of the message: ");
+                		getchar(); 
+                		fgets(msg, sizeof(msg), stdin);
+                		msg[strcspn(msg, "\n")] = '\0'; 
 
-                master_decrypt(msg, strlen(msg));
-                printf("Decrypted version of the Encrypted message: %s\n", msg);
-                break;
-            default:
-                printf("Invalid choice. Please try again.\n");
-                break;
+               			master_decrypt(msg, strlen(msg));
+               			printf("Decrypted version of the Encrypted message: %s\n", msg);
+               			break;
+            		default:
+                		printf("Invalid choice. Please try again.\n");
+                		break;
         }
     }
 
