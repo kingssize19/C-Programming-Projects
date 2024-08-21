@@ -1,14 +1,1 @@
-example 1 : 
-Write a C program to compute the sum of the two input values. If the two values are the same, then return triple their sum.
 
-example 2: 
-Write a C program that will take a number as input and find the absolute difference between the input number and 51.
-If the input number is greater than 51, it will return triple the absolute difference.
-
-example 3: 
-Write a C program that checks two given integers and returns true if at least one of them is 30 or if their sum is 30. 
-In other words, if either of the two integers is 30 or if their sum equals 30, the program will return true.
-
-example 4:
-Write a C program that checks if a positive integer is divisible by either 3 or 7, or both. If the integer is a multiple of 3, then the program will return true. 
-Similarly, if the integer is a multiple of 7, then also the program will return true. If the integer is not a multiple of 3 or 7, then the program will return false.
